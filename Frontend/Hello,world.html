@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello,world!</title>
+    </head>
+
+    <body>
+        <h1>世界，你好！</h1>
+        <p id="test">这里有一段话</p>
+        <button type="button" onclick="myChangeContent('test','啊，被外面修改了呢！')">点我</button>
+        
+        <script src="myScript.js">
+            function myFunction(){
+                document.getElementById("test").innerHTML="啊，被修改了呢";
+            }
+        </script>
+    </body>
+</html>
